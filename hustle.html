@@ -7,7 +7,11 @@
 	<link rel="stylesheet" href="https://Holargee.github.io/side_hustle/index.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script>
-function Open(){	 document.getElementById("nav").style.width="50%";}
+function Open(){	 var a = document.getElementById("nav").style;
+if(a.width=="0%"){a.width="50%";}
+else{a.width="0%";}
+}
+		
 function Close(){	 document.getElementById("nav").style.width="0%";}
 
 		</script>
@@ -25,7 +29,7 @@ function Close(){	 document.getElementById("nav").style.width="0%";}
 			<span class="text">Active Jobs</span>				
 			</div>
 			<div id="nav"class="nav">
-			<span class="tim"onclick="Close()">x</span>
+			
 		<span id="us" class="fa fa-user-circle"></span>
 		<span class="No">Olanibi Gideon</span><hr>
 		<h3><small>Dashboard</small></h3>
