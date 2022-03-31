@@ -201,7 +201,7 @@
 				width:250px;
 				padding:7px;height:35px;
 	
-				border-radius:3px;
+				border-radius:1px;
 				font-family:verdana;
 }
 .for{				
@@ -239,7 +239,7 @@ a{
 				position:relative;
 				top:102px;
 				font-size:25px;
-				right:7px;
+				left:-7px;
 				color:rgb(50,50,50);
 }
 .ico{
