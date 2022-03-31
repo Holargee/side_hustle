@@ -182,7 +182,10 @@
 .ber{
 				color:rgb(40,40,40);
 				font-family:verdana;
-				font-size:25px;
+				font-size:25px;text-align:center;
+				position:relative;
+				left:45px;
+	
 }
 .fill{
 				padding:7px;
@@ -219,23 +222,23 @@ a{
 }
 #ic{
 				font-size:25px;
-				position:absolute;
-				top:215px;
-				left:70px;
+				position:relative;
+				top:52px;
+				left:-160px;
 				color:rgb(50,50,50);
 }
 #lock{
-				position:absolute;
-				top:265px;
+				position:relative;
+				top:102px;
 				font-size:25px;
-				left:70px;
+				left:-187px;
 				color:rgb(50,50,50);
 }
 #eye{
-				position:absolute;
-				top:265px;
+				position:relative;
+				top:102px;
 				font-size:25px;
-				right:70px;
+				right:7px;
 				color:rgb(50,50,50);
 }
 .ico{
