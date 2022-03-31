@@ -199,7 +199,8 @@
 				background-color:rgb(0,70,0);
 				color:white;
 				width:250px;
-				padding:7px;
+				padding:7px;height:35px;
+	
 				border-radius:3px;
 				font-family:verdana;
 }
